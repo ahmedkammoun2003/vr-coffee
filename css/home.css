@@ -1,0 +1,36 @@
+.homepage{
+    background-image: url(../images/backgrounds/julien-tromeur-EOSHmMbjT8g-unsplash.jpg);
+    width: 97vw;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage > .hometitle{
+    background-color: rgba(245, 199, 39, 0.8);
+    width:500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 20px;
+}
+.homepage > .homeparagraph{
+    background-color: rgba(245, 199, 39, 0.8);
+    width:500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px;
+    color: black;
+}

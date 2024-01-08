@@ -1,0 +1,123 @@
+.games > .game1:hover > .gametext{
+    transform: translate(120px ,-150px);
+}
+.games > .game1:hover > .gametext > .gametitle{
+    color: #cea135;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.games > .game1:hover > .gametext > .gameparagraph{
+    color: white;
+}
+.games > .game1:hover > .gamephoto{
+    transform: translate(-100px ,0px);
+}
+.games > .game1 >.gamephoto{
+    background-image: url(../images/games/joel-fulgencio-FKp6stf-aI0-unsplash.jpg);
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    transition:all 2s ease-in;
+}
+.games > .game1 > .gametext{
+    transform: translateY(-150px);
+    transition:all 2s ease-in;
+}
+.games > .game1 > .gametext > .gametitle{
+    margin-left: 75px;
+    color: transparent;
+    letter-spacing: 2px;
+    transition:all 2s ease-in;
+}
+.games > .game1 > .gametext > .gameparagraph{
+    width: 200px;
+    height: 133px;
+    margin-top: 10px;
+    color: transparent;
+    transition:all 2s ease-in;
+}
+.games > .game2:hover > .gametext{
+    transform: translate(120px ,-200px);
+}
+.games > .game2:hover > .gametext > .gametitle{
+    color: #cea135;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.games > .game2:hover > .gametext > .gameparagraph{
+    color: white;
+}
+.games > .game2:hover > .gamephoto{
+    transform: translate(-100px ,0px);
+}
+.games > .game2 >.gamephoto{
+    background-image: url(../images/games/shubham-dhage-ykFTt5Dq1RU-unsplash.jpg);
+    width: 200px;
+    height: 300px;
+    transition:all 2s ease-in;
+}
+.games > .game2 > .gametext{
+    transform: translateY(-200px);
+    transition:all 2s ease-in;
+}
+.games > .game2 > .gametext > .gametitle{
+    margin-left: 75px;
+    color: transparent;
+    letter-spacing: 2px;
+    transition:all 2s ease-in;
+}
+.games > .game2 > .gametext > .gameparagraph{
+    width: 200px;
+    height: 133px;
+    margin-top: 10px;
+    color: transparent;
+    transition:all 2s ease-in;
+}
+.games > .game3:hover > .gametext{
+    transform: translate(120px ,-133px);
+}
+.games > .game3:hover > .gametext > .gametitle{
+    color: #cea135;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.games > .game3:hover > .gametext > .gameparagraph{
+    color: white;
+}
+.games > .game3:hover > .gamephoto{
+    transform: translate(-100px ,0px);
+}
+.games > .game3 >.gamephoto{
+    background-image: url(../images/games/samuele-errico-piccarini-MyjVReZ5GLQ-unsplash.jpg);
+    width: 200px;
+    height: 133px;
+    transition:all 2s ease-in;
+}
+.games > .game3 > .gametext{
+    transform: translateY(-133px);
+    transition:all 2s ease-in;
+}
+.games > .game3 > .gametext > .gametitle{
+    margin-left: 75px;
+    color: transparent;
+    letter-spacing: 2px;
+    transition:all 2s ease-in;
+}
+.games > .game3 > .gametext > .gameparagraph{
+    width: 200px;
+    height: 133px;
+    margin-top: 10px;
+    color: transparent;
+    transition:all 2s ease-in;
+}
+.games{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

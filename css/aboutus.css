@@ -1,0 +1,18 @@
+.aboutus_page{
+    background-image: url(../images/backgrounds/igor-omilaev-Rv0AKGtIdwk-unsplash.jpg);
+    height: 90vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    width: 97vw;
+}
+.aboutus_page > .aboutus_paragraph{
+    font-weight: 700;
+    font-size: 50px;
+    background-color: rgba(0, 193, 193, 0.512);
+    color: rgba(255, 255, 255, 0.812);
+    margin: 10px;
+}

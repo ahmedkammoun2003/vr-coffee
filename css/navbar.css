@@ -1,0 +1,113 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header ,footer{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    color: white;
+    background-color: rgb(32, 1, 61);
+    width: 100%;
+}
+.header_middle_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header_middle_column > .company_logo{
+    color: #cea135;
+    font-size: 50px;
+    text-shadow: 
+    0 0 7px #cea135;
+}
+.header_middle_column > .companyname:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.header_middle_column > .companyname{
+   font-size: 25px;
+   margin-top: 10px;
+   margin-left: 10px;
+   transition: 1s;
+}
+
+.header_left_column > .adress {
+    margin: 5px;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+ .header_left_column > .phone p ,.header_left_column > .adress >.adress_text p {
+    margin: 0;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+.header_left_column > .phone p:hover ,.header_left_column > .adress >.adress_text p:hover {
+    color: #cea135;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.header_left_column > .phone , .header_left_column > .adress {
+    margin-top: 1.5em;
+    display: flex;
+
+}
+.header_left_column > .adress > .location_icon {
+    transform: scale(1.5);
+    margin: 10px;
+    margin-right: 15px;
+    margin-top: 15px;
+    color:#cea135;
+    text-shadow: 
+    0 0 7px #cea135;
+}
+.header_left_column > .phone > .phone_icon {
+    margin: 0px 10px;
+    margin-right: 15px;
+    color:#cea135;
+    text-shadow: 
+    0 0 7px #cea135;
+}
+.header_right_column{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    justify-content: center;
+}
+.header_right_column > a{
+    height:50px;
+    width:90px;
+    transition: 1s;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.header_right_column > a:hover{
+    color: #cea135;
+    letter-spacing: 0.2em;
+    text-shadow: 
+    0 0 7px #cea135,
+    0 0 10px #cea135,
+    0 0 21px #cea135;
+}
+.header_middle_column > .socialmedia{
+    display: flex;
+    gap: 2em;
+    font-size: 30px;
+}
+.header_middle_column > .socialmedia{
+    display: flex;
+    gap: 2em;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.header_middle_column > .socialmedia > .facebook:hover , .header_middle_column > .socialmedia > .instagram:hover , .header_middle_column > .socialmedia > .x-twitter:hover{
+    color:#cea135;
+}
